@@ -13,16 +13,7 @@
 ```
 
 ## Description
-This configuration builds a ubuntu jammy system with opencog-desktop. This is a specialized environment optimized for OpenCog AI development and cognitive science research, including pre-installed AI/ML libraries, development tools, and the OpenCog framework.
-
-## OpenCog Features
-- OpenCog AtomSpace and CogUtil libraries
-- Python OpenCog bindings
-- PyTorch, TensorFlow, and scikit-learn
-- Jupyter Notebook and Spyder IDE
-- Natural Language Toolkit (NLTK)
-- Development tools (CMake, Git, GCC, Boost)
-- Pre-configured workspace and examples
+This configuration builds a ubuntu jammy system with opencog-desktop.
 
 ## Desktop Environment Features
 - GUI desktop environment
@@ -51,7 +42,7 @@ Test the built image with:
 ```
 
 ## Related Files
-- Configuration script: `oscfg/opencog.sh`
+- Configuration script: `oscfg/ubuntu.sh`
 - Base scripts: `scripts/`
 - Requirements: [os_requirements.md](../os_requirements.md)
 
