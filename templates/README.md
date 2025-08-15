@@ -11,7 +11,8 @@ This directory contains template documentation for all supported Shells image co
 - **fedora**: 2 configurations
 - **manjaro**: 3 configurations
 - **opensuse**: 4 configurations
-- **ubuntu**: 14 configurations
+- **slackware**: 3 configurations
+- **ubuntu**: 16 configurations
 
 ## Usage
 Each template contains:
