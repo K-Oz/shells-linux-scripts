@@ -18,6 +18,23 @@ For example:
 	
 For list of currently available builds, take a look at [official_images.txt](https://github.com/Shells-com/linux-scripts/blob/master/official_images.txt).
 
+For detailed configuration information and templates, see the [templates directory](templates/).
+
+## OS Creation Tutorial
+
+For comprehensive guidance on creating Shells images, see our detailed tutorial:
+- [Shells.com OS Creation Tutorial](docs/shells-os-creation-tutorial.md)
+
+This tutorial covers:
+- Creating images from existing Shells
+- Moving from Virtual Machines
+- Running your own kernel
+- Available configurations and templates
+
+## Configuration Templates
+
+Each supported image configuration has a detailed template with build instructions, requirements, and testing guidance. Templates are automatically generated and organized by distribution in the [templates/](templates/) directory.
+
 # Submit/maintain your distribution
 
 Shells wants to help Linux community as much as it can, so if you would like to see your own distribution on the list, submit PR with it and we will gladly merge it. Be sure to read about some simple rules around how to build images for Shells at [os_requirements.md](https://github.com/Shells-com/linux-scripts/blob/master/os_requirements.md).
