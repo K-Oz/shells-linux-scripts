@@ -7,6 +7,7 @@ This directory contains template documentation for all supported Shells image co
 - Template files are named after their configuration (e.g., `ubuntu-focal-ubuntu-desktop.md`)
 
 ## Available Distributions
+- **arch**: 1 configurations
 - **debian**: 8 configurations
 - **fedora**: 2 configurations
 - **manjaro**: 3 configurations
