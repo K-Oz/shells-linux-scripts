@@ -32,7 +32,7 @@ opensuse-tumbleweed-kde-desktop
 
 # Experimental configurations (may have limitations)
 slackware-current-desktop
-slackware-15-desktop  
+slackware-15-desktop
 slackware-current-server
 ubuntu-jammy-opencog-desktop
 ubuntu-focal-opencog-desktop

@@ -29,6 +29,8 @@ This repository now includes experimental support for additional operating syste
 ### 📚 Documentation for Advanced Use Cases
 - [Docker Deployment Examples](docs/docker-deployment-examples.md) - Using Shells with containerized workflows
 - [Experimental Operating Systems](docs/experimental-operating-systems.md) - Research into unusual OS support
+- [Testing Experimental Images](docs/testing-experimental-images.md) - How to test experimental configurations
+- [GitHub Repo Deployment Structure](docs/github-repo-deployment-structure.md) - Structure repos for Shell deployment
 
 **Note**: Experimental configurations may have limitations and are primarily intended for educational and research purposes.
 

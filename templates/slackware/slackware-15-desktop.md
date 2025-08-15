@@ -1,19 +1,26 @@
-# slackware-15-desktop   Configuration Template
+# slackware-15-desktop Configuration Template
 
 ## Image Details
 - **Distribution:** slackware
 - **Version:** 15
-- **Variant:** desktop  
+- **Variant:** desktop
 - **Type:** desktop
-- **Full Name:** slackware-15-desktop  
+- **Full Name:** slackware-15-desktop
 
 ## Build Command
 ```bash
-./build_image.sh slackware-15-desktop  
+./build_image.sh slackware-15-desktop
 ```
 
 ## Description
-This configuration builds a slackware 15 system with desktop  .
+This configuration builds a slackware 15 system with desktop. **Note: This is an experimental template.** Slackware support is provided as a proof-of-concept and educational tool. The implementation creates a basic Slackware-compatible environment but may not include full package management capabilities.
+
+## Experimental Status
+⚠️ **Warning: Experimental Configuration**
+- This template is in experimental status
+- May not include complete Slackware package installation
+- Intended primarily for educational purposes
+- Complete Slackware implementation would require additional development
 
 ## Desktop Environment Features
 - GUI desktop environment
@@ -38,7 +45,7 @@ This configuration builds a slackware 15 system with desktop  .
 ## Testing
 Test the built image with:
 ```bash
-./test-linux.sh slackware-15-desktop  -$(date +%Y%m%d).qcow2
+./test-linux.sh slackware-15-desktop-$(date +%Y%m%d).qcow2
 ```
 
 ## Related Files
