@@ -13,6 +13,8 @@ set -e
 . oscfg/opensuse.sh
 . oscfg/centos.sh
 . oscfg/deepin.sh
+. oscfg/slackware.sh
+. oscfg/opencog.sh
 
 dodistro() {
 	if [ -f "$1-$DATE.qcow2" ]; then
@@ -43,6 +45,12 @@ dodistro() {
 			;;
 		deepin-*)
 			deepin_distro "$1"
+			;;
+		slackware-*)
+			slackware_distro "$1"
+			;;
+		ubuntu-*-opencog-*)
+			opencog_distro "$1"
 			;;
 		*)
 			echo "unsupported distro $1"

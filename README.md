@@ -18,6 +18,22 @@ For example:
 	
 For list of currently available builds, take a look at [official_images.txt](https://github.com/Shells-com/linux-scripts/blob/master/official_images.txt).
 
+## Experimental Configurations
+
+This repository now includes experimental support for additional operating systems and specialized environments:
+
+### 🧪 Experimental Systems
+- **Slackware Linux**: Traditional Linux distribution templates (`slackware-*`)
+- **OpenCog Environment**: AI/cognitive science optimized Ubuntu (`ubuntu-*-opencog-*`)
+
+### 📚 Documentation for Advanced Use Cases
+- [Docker Deployment Examples](docs/docker-deployment-examples.md) - Using Shells with containerized workflows
+- [Experimental Operating Systems](docs/experimental-operating-systems.md) - Research into unusual OS support
+- [Testing Experimental Images](docs/testing-experimental-images.md) - How to test experimental configurations
+- [GitHub Repo Deployment Structure](docs/github-repo-deployment-structure.md) - Structure repos for Shell deployment
+
+**Note**: Experimental configurations may have limitations and are primarily intended for educational and research purposes.
+
 For detailed configuration information and templates, see the [templates directory](templates/).
 
 ## OS Creation Tutorial
